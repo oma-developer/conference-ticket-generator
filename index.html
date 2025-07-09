@@ -108,7 +108,7 @@
               <div class="logo">
                 <img src="./assets/images/logo-full.svg" alt="logo" />
               </div>
-                <p class="time"><span class="dot">Jan 31, 2025</span> / Austin, TX</p>
+                <p class="time"><span class="dot">Jan 31, 2025</span> / Ilorin, Kwara.</p>
 
                 <div class="personal">
                   <img class="avatar" src="./assets/images/image-avatar.jpg" alt="avatar">
@@ -127,6 +127,14 @@
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <footer>
+      <p> &copy; <span id="current-year"> </span> By <a href="https://github.com/oma-developer">Oma Ezealaji</a></p>
+    </footer>
+  <script>  
+      const yearSpan = document.getElementById('current-year');
+      const currentYear = new Date().getFullYear();
+      yearSpan.innerHTML = currentYear;
+  </script>
+  <script src="script.js"></script>
   </body>
 </html>
